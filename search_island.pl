@@ -1,5 +1,7 @@
-# This script, "search.pl" is meant to identify euchromatic island within heterochromatin.
-# it is based on the chromatin state of each base. The script detect the typical eucrhromatic
+#!/usr/bin/perl
+
+# This script, "search_island.pl" is meant to identify euchromatic island within heterochromatin.
+# It is based on the chromatin state of each base. The script detect the typical eucrhromatic
 # states that are surrounded by a certain length (determined by the user) of state 9 and 8.
 #
 # Copyright (c) 2017 Michel TERESE
@@ -21,7 +23,6 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-#!/usr/bin/perl
 
 use strict;
 use warnings;
